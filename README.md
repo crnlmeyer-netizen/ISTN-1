@@ -1,11 +1,11 @@
-# ISTN-1: Industrial Solar Telemetry Node
+# ISTeN-1: Industrial Solar Telemetry Node
 An ultra-low-power, off-grid agricultural field gateway featuring dual-RF connectivity (Cellular IoT + Sub-GHz LoRa), MPPT solar power management, industrial field-bus interfacing, and onboard environmental diagnostics.
 
 ---
 
 ## Technical Overview
 
-The **ISTN-1** is an industrial-grade field node designed for remote agricultural monitoring, soil telemetry, and asset tracking. Engineered to operate continuously under South African climate conditions, the system collects data from wired field sensors, bridges remote sub-nodes over LoRa, and streams encrypted telemetry to cloud infrastructure via Cellular IoT.
+The **ISTeN-1** is an industrial-grade field node designed for remote agricultural monitoring, soil telemetry, and asset tracking. Engineered to operate continuously under South African climate conditions, the system collects data from wired field sensors, bridges remote sub-nodes over LoRa, and streams encrypted telemetry to cloud infrastructure via Cellular IoT.
 
 ```text
                                +-----------------------------+
@@ -51,12 +51,12 @@ The **ISTN-1** is an industrial-grade field node designed for remote agricultura
 * **Power Profiling:** Ultra-low standby current ($<15\,\mu\text{A}$) in deep-sleep mode; onboard current monitoring via INA219.
 
 ### 5. Onboard Diagnostics & Security
-* **Motion & Anti-Theft:** Low-power 3-axis accelerometer (LIS3DH) with configurable interrupt flags for tilt/movement detection.
-* **Internal Climate Monitoring:** Digital temperature and relative humidity sensor (SHT40) tracking enclosure conditions and thermal stress.
+* **Motion & Anti-Theft:** Low-power 3-axis accelerometer with configurable interrupt flags for tilt/movement detection.
+* **Internal Climate Monitoring:** Digital temperature and relative humidity sensor tracking enclosure conditions and thermal stress.
 * **System Health:** Multi-channel current/voltage sensing for real-time power budget verification.
 
 ### 6. Physical & Mechanical Engineering
-* **Enclosure:** Sealed IP67 junction box with weatherproof PG/M-series cable glands.
+* **Enclosure:** Sealed IP67 junction box with weatherproof cable glands.
 * **Thermal CAD:** Custom 3D-printed mounting chassis designed to act as a thermal dissipator under outdoor solar loading.
 
 ---
@@ -74,7 +74,7 @@ The **ISTN-1** is an industrial-grade field node designed for remote agricultura
 ```text
 ├── docs/             # Engineering Logs, Trade-off Analyses, and Architecture Decision Records
 ├── firmware/         # C Drivers, Protocol Parsers, State Machines, and Unit Tests
-├── hardware/         # Altium Schematics, PCB Layouts, Gerber Files, and 3D CAD Models
+├── hardware/         # Schematics, PCB Layouts, Gerber Files, and 3D CAD Models
 └── misc/             # Miscellaneous stuff, e.g. datasheets
 ```
 ---

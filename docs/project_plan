@@ -1,0 +1,26 @@
+# ISTN-1 Hardware Development & Execution Plan
+
+1. External Interface & Mechanical Penetration Specification
+   - Define all PCB connectors and interfaces, as well as enclosure connectors. [COMPLETED]
+
+2. Subsystem Electronics & Peripherals Mapping
+   - Finalize onboard sensors, IC's, and power management.
+   - Calculate total hardware peripheral budget (UART, SPI, I2C, GPIO, Timers, Interrupts).
+
+3. Microcontroller (MCU) Architecture Selection
+   - Select specific 32-bit STM32 MCU part number based on pin count, flash/RAM size, low-power sleep modes, and peripheral multiplexing.
+
+4. Comprehensive System Architecture & Power Block Diagram
+   - Draft end-to-end block diagram detailing power rails, voltage conversion stages, power-gating switches, bus topologies, and logic-level shifting.
+
+5. Firmware Hardware Abstraction Layer (HAL) Prototyping
+   - Spin up basic dev-kit firmware (Nucleo board) to validate driver stacks for SIM7080G AT commands, SX1262 SPI, SDI-12 timing, and Modbus RTU framing.
+
+6. Testability, Diagnostics & Design for Test (DFT) Strategy
+   - Map out PCB test points (SWD, power rails, bus lines) and establish functional verification criteria against system specs.
+
+7. Mechanical Integration & PCB Form Factor Sizing
+   - Estimate component area, establish layer stackup, select standard IP67 enclosure dimensions, and define mounting hole placements.
+
+8. Schematic Capture, BOM Generation & PCB Layout
+   - Complete schematic capture in KiCAD, compile the Bill of Materials (BOM) with active supplier stock, and route the PCB layout.

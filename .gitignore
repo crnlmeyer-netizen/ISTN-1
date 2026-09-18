@@ -53,14 +53,3 @@ dkms.conf
 
 # debug information files
 *.dwo
-
-# Altium Designer build and temporary artifacts
-History/
-Project Logs for */
-Project Outputs for */
-__History/
-*.SchDoc.Zip
-*.PcbDoc.Zip
-*.Annotation
-*.LOG
-*.HTML
