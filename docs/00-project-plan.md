@@ -1,9 +1,9 @@
 # ISTN-1 Hardware Development & Execution Plan
 
-1. External Interface & Mechanical Penetration Specification
-   - Define all PCB connectors and interfaces, as well as enclosure connectors. [COMPLETED]
+1. External Interface & Mechanical Penetration Specification [COMPLETED]
+   - Define all PCB connectors and interfaces, as well as enclosure connectors.
 
-2. Subsystem Electronics & Peripherals Mapping
+2. Subsystem Electronics & Peripherals Mapping [IN PROGRESS]
    - Finalize onboard sensors, IC's, and power management.
    - Calculate total hardware peripheral budget (UART, SPI, I2C, GPIO, Timers, Interrupts).
 
